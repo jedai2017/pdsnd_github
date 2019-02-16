@@ -2,10 +2,10 @@
 Feb 15, 2019
 
 ### Project Title
-Git bikeshare project 
+Git bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+Post my bikeshare project on Github
 
 ### Files used
 Include the files used
