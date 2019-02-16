@@ -18,10 +18,11 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     global city
+    # To mark city as a global variable so it can be used by the user_stats function too
     city = input("Would you like to see data for Chicago, New York City, or Washington?\n")
     city = city.lower()
     while (city != "chicago") and (city != "new york city") and (city != "washington"):
-        city = input("This is not a valid input, please input Chicago, New York City, or Washington.\n")
+        city = input("This is not a valid input, please enter Chicago, New York City, or Washington.\n")
         city = city.lower()
     else:
         print("You selected the data from {}.\n".format(city))
